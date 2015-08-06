@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F79F6711B3DFE4A004D05BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F79F6701B3DFE4A004D05BC /* main.m */; };
+		5F79F6741B3DFE4A004D05BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F79F6731B3DFE4A004D05BC /* AppDelegate.m */; };
+		5F79F6771B3DFE4A004D05BC /* BetterSoccerCoachingApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5F79F6751B3DFE4A004D05BC /* BetterSoccerCoachingApp.xcdatamodeld */; };
+		5F79F67A1B3DFE4A004D05BC /* SoccerFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F79F6791B3DFE4A004D05BC /* SoccerFieldViewController.m */; };
+		5F79F67D1B3DFE4A004D05BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F79F67B1B3DFE4A004D05BC /* Main.storyboard */; };
+		5F79F67F1B3DFE4A004D05BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F79F67E1B3DFE4A004D05BC /* Images.xcassets */; };
+		5F79F6821B3DFE4A004D05BC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F79F6801B3DFE4A004D05BC /* LaunchScreen.xib */; };
+		5F79F68E1B3DFE4A004D05BC /* BetterSoccerCoachingAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F79F68D1B3DFE4A004D05BC /* BetterSoccerCoachingAppTests.m */; };
+		5F79F6991B3E025D004D05BC /* StartinLineUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F79F6981B3E025D004D05BC /* StartinLineUpViewController.m */; };
+		5F79F69C1B3E044A004D05BC /* SoccerBalls.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F79F69B1B3E044A004D05BC /* SoccerBalls.m */; };
+		5F79F69F1B3E04CA004D05BC /* PlayersInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F79F69E1B3E04CA004D05BC /* PlayersInfo.m */; };
+		5F79F6A21B3E04E8004D05BC /* TimeClocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F79F6A11B3E04E8004D05BC /* TimeClocks.m */; };
+		5F79F6A51B3E056F004D05BC /* SoccerBallLabels.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F79F6A41B3E056F004D05BC /* SoccerBallLabels.m */; };
+		5F79F6A81B3E059E004D05BC /* SoccerImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F79F6A71B3E059E004D05BC /* SoccerImages.m */; };
+		5F79F6B81B3E0839004D05BC /* ListOfPlayersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F79F6B71B3E0839004D05BC /* ListOfPlayersTableViewController.m */; };
+		5F79F6BB1B3E0887004D05BC /* AddPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F79F6BA1B3E0887004D05BC /* AddPlayerViewController.m */; };
+		5F79F6BE1B3E08B1004D05BC /* EditPlayerInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F79F6BD1B3E08B1004D05BC /* EditPlayerInfoViewController.m */; };
+		5F79F6C11B3E08E7004D05BC /* PlayerInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F79F6C01B3E08E7004D05BC /* PlayerInfoViewController.m */; };
+		5F79F6C31B3E1342004D05BC /* soccerBall.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F79F6C21B3E1342004D05BC /* soccerBall.png */; };
+		5F79F6C61B3E1619004D05BC /* SoccerBallButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F79F6C51B3E1619004D05BC /* SoccerBallButton.m */; };
+		F47DD0571B3E4DB3005074CA /* SoccerBallPositions.m in Sources */ = {isa = PBXBuildFile; fileRef = F47DD0561B3E4DB3005074CA /* SoccerBallPositions.m */; };
+		F47DD0591B3E72E0005074CA /* soccerField.png in Resources */ = {isa = PBXBuildFile; fileRef = F47DD0581B3E72E0005074CA /* soccerField.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F79F6881B3DFE4A004D05BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F79F6631B3DFE4A004D05BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F79F66A1B3DFE4A004D05BC;
+			remoteInfo = BetterSoccerCoachingApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F79F66B1B3DFE4A004D05BC /* BetterSoccerCoachingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterSoccerCoachingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F79F66F1B3DFE4A004D05BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F79F6701B3DFE4A004D05BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F79F6721B3DFE4A004D05BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5F79F6731B3DFE4A004D05BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5F79F6761B3DFE4A004D05BC /* BetterSoccerCoachingApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BetterSoccerCoachingApp.xcdatamodel; sourceTree = "<group>"; };
+		5F79F6781B3DFE4A004D05BC /* SoccerFieldViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoccerFieldViewController.h; sourceTree = "<group>"; };
+		5F79F6791B3DFE4A004D05BC /* SoccerFieldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoccerFieldViewController.m; sourceTree = "<group>"; };
+		5F79F67C1B3DFE4A004D05BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F79F67E1B3DFE4A004D05BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5F79F6811B3DFE4A004D05BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5F79F6871B3DFE4A004D05BC /* BetterSoccerCoachingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterSoccerCoachingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F79F68C1B3DFE4A004D05BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F79F68D1B3DFE4A004D05BC /* BetterSoccerCoachingAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BetterSoccerCoachingAppTests.m; sourceTree = "<group>"; };
+		5F79F6971B3E025D004D05BC /* StartinLineUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartinLineUpViewController.h; sourceTree = "<group>"; };
+		5F79F6981B3E025D004D05BC /* StartinLineUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartinLineUpViewController.m; sourceTree = "<group>"; };
+		5F79F69A1B3E044A004D05BC /* SoccerBalls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoccerBalls.h; sourceTree = "<group>"; };
+		5F79F69B1B3E044A004D05BC /* SoccerBalls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoccerBalls.m; sourceTree = "<group>"; };
+		5F79F69D1B3E04CA004D05BC /* PlayersInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayersInfo.h; sourceTree = "<group>"; };
+		5F79F69E1B3E04CA004D05BC /* PlayersInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayersInfo.m; sourceTree = "<group>"; };
+		5F79F6A01B3E04E8004D05BC /* TimeClocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeClocks.h; sourceTree = "<group>"; };
+		5F79F6A11B3E04E8004D05BC /* TimeClocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeClocks.m; sourceTree = "<group>"; };
+		5F79F6A31B3E056F004D05BC /* SoccerBallLabels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoccerBallLabels.h; sourceTree = "<group>"; };
+		5F79F6A41B3E056F004D05BC /* SoccerBallLabels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoccerBallLabels.m; sourceTree = "<group>"; };
+		5F79F6A61B3E059E004D05BC /* SoccerImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoccerImages.h; sourceTree = "<group>"; };
+		5F79F6A71B3E059E004D05BC /* SoccerImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoccerImages.m; sourceTree = "<group>"; };
+		5F79F6B61B3E0839004D05BC /* ListOfPlayersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListOfPlayersTableViewController.h; sourceTree = "<group>"; };
+		5F79F6B71B3E0839004D05BC /* ListOfPlayersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListOfPlayersTableViewController.m; sourceTree = "<group>"; };
+		5F79F6B91B3E0887004D05BC /* AddPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPlayerViewController.h; sourceTree = "<group>"; };
+		5F79F6BA1B3E0887004D05BC /* AddPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPlayerViewController.m; sourceTree = "<group>"; };
+		5F79F6BC1B3E08B1004D05BC /* EditPlayerInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditPlayerInfoViewController.h; sourceTree = "<group>"; };
+		5F79F6BD1B3E08B1004D05BC /* EditPlayerInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditPlayerInfoViewController.m; sourceTree = "<group>"; };
+		5F79F6BF1B3E08E7004D05BC /* PlayerInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerInfoViewController.h; sourceTree = "<group>"; };
+		5F79F6C01B3E08E7004D05BC /* PlayerInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerInfoViewController.m; sourceTree = "<group>"; };
+		5F79F6C21B3E1342004D05BC /* soccerBall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = soccerBall.png; path = ../soccerBall.png; sourceTree = "<group>"; };
+		5F79F6C41B3E1619004D05BC /* SoccerBallButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoccerBallButton.h; sourceTree = "<group>"; };
+		5F79F6C51B3E1619004D05BC /* SoccerBallButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoccerBallButton.m; sourceTree = "<group>"; };
+		F47DD0551B3E4DB3005074CA /* SoccerBallPositions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoccerBallPositions.h; sourceTree = "<group>"; };
+		F47DD0561B3E4DB3005074CA /* SoccerBallPositions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoccerBallPositions.m; sourceTree = "<group>"; };
+		F47DD0581B3E72E0005074CA /* soccerField.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soccerField.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F79F6681B3DFE4A004D05BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F79F6841B3DFE4A004D05BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F79F6621B3DFE4A004D05BC = {
+			isa = PBXGroup;
+			children = (
+				F47DD0541B3E4438005074CA /* Frameworks */,
+				5F79F66D1B3DFE4A004D05BC /* BetterSoccerCoachingApp */,
+				5F79F68A1B3DFE4A004D05BC /* BetterSoccerCoachingAppTests */,
+				5F79F66C1B3DFE4A004D05BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F79F66C1B3DFE4A004D05BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F79F66B1B3DFE4A004D05BC /* BetterSoccerCoachingApp.app */,
+				5F79F6871B3DFE4A004D05BC /* BetterSoccerCoachingAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F79F66D1B3DFE4A004D05BC /* BetterSoccerCoachingApp */ = {
+			isa = PBXGroup;
+			children = (
+				F4B7BF901B70413E00D6BC08 /* Models */,
+				5F79F6AC1B3E060A004D05BC /* Views */,
+				5F79F6AA1B3E05F0004D05BC /* Controllers */,
+				5F79F6721B3DFE4A004D05BC /* AppDelegate.h */,
+				5F79F6731B3DFE4A004D05BC /* AppDelegate.m */,
+				5F79F67B1B3DFE4A004D05BC /* Main.storyboard */,
+				5F79F67E1B3DFE4A004D05BC /* Images.xcassets */,
+				5F79F6801B3DFE4A004D05BC /* LaunchScreen.xib */,
+				5F79F6751B3DFE4A004D05BC /* BetterSoccerCoachingApp.xcdatamodeld */,
+				5F79F66E1B3DFE4A004D05BC /* Supporting Files */,
+			);
+			path = BetterSoccerCoachingApp;
+			sourceTree = "<group>";
+		};
+		5F79F66E1B3DFE4A004D05BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F79F6C21B3E1342004D05BC /* soccerBall.png */,
+				F47DD0581B3E72E0005074CA /* soccerField.png */,
+				5F79F66F1B3DFE4A004D05BC /* Info.plist */,
+				5F79F6701B3DFE4A004D05BC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5F79F68A1B3DFE4A004D05BC /* BetterSoccerCoachingAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F79F68D1B3DFE4A004D05BC /* BetterSoccerCoachingAppTests.m */,
+				5F79F68B1B3DFE4A004D05BC /* Supporting Files */,
+			);
+			path = BetterSoccerCoachingAppTests;
+			sourceTree = "<group>";
+		};
+		5F79F68B1B3DFE4A004D05BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F79F68C1B3DFE4A004D05BC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5F79F6AA1B3E05F0004D05BC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5F79F6781B3DFE4A004D05BC /* SoccerFieldViewController.h */,
+				5F79F6791B3DFE4A004D05BC /* SoccerFieldViewController.m */,
+				5F79F6971B3E025D004D05BC /* StartinLineUpViewController.h */,
+				5F79F6981B3E025D004D05BC /* StartinLineUpViewController.m */,
+				5F79F6B61B3E0839004D05BC /* ListOfPlayersTableViewController.h */,
+				5F79F6B71B3E0839004D05BC /* ListOfPlayersTableViewController.m */,
+				5F79F6B91B3E0887004D05BC /* AddPlayerViewController.h */,
+				5F79F6BA1B3E0887004D05BC /* AddPlayerViewController.m */,
+				5F79F6BC1B3E08B1004D05BC /* EditPlayerInfoViewController.h */,
+				5F79F6BD1B3E08B1004D05BC /* EditPlayerInfoViewController.m */,
+				5F79F6BF1B3E08E7004D05BC /* PlayerInfoViewController.h */,
+				5F79F6C01B3E08E7004D05BC /* PlayerInfoViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		5F79F6AC1B3E060A004D05BC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5F79F69A1B3E044A004D05BC /* SoccerBalls.h */,
+				5F79F69B1B3E044A004D05BC /* SoccerBalls.m */,
+				5F79F6A31B3E056F004D05BC /* SoccerBallLabels.h */,
+				5F79F6A41B3E056F004D05BC /* SoccerBallLabels.m */,
+				5F79F6A61B3E059E004D05BC /* SoccerImages.h */,
+				5F79F6A71B3E059E004D05BC /* SoccerImages.m */,
+				5F79F6C41B3E1619004D05BC /* SoccerBallButton.h */,
+				5F79F6C51B3E1619004D05BC /* SoccerBallButton.m */,
+				F47DD0551B3E4DB3005074CA /* SoccerBallPositions.h */,
+				F47DD0561B3E4DB3005074CA /* SoccerBallPositions.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		F47DD0541B3E4438005074CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4B7BF901B70413E00D6BC08 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5F79F69D1B3E04CA004D05BC /* PlayersInfo.h */,
+				5F79F69E1B3E04CA004D05BC /* PlayersInfo.m */,
+				5F79F6A01B3E04E8004D05BC /* TimeClocks.h */,
+				5F79F6A11B3E04E8004D05BC /* TimeClocks.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F79F66A1B3DFE4A004D05BC /* BetterSoccerCoachingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F79F6911B3DFE4A004D05BC /* Build configuration list for PBXNativeTarget "BetterSoccerCoachingApp" */;
+			buildPhases = (
+				5F79F6671B3DFE4A004D05BC /* Sources */,
+				5F79F6681B3DFE4A004D05BC /* Frameworks */,
+				5F79F6691B3DFE4A004D05BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BetterSoccerCoachingApp;
+			productName = BetterSoccerCoachingApp;
+			productReference = 5F79F66B1B3DFE4A004D05BC /* BetterSoccerCoachingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F79F6861B3DFE4A004D05BC /* BetterSoccerCoachingAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F79F6941B3DFE4A004D05BC /* Build configuration list for PBXNativeTarget "BetterSoccerCoachingAppTests" */;
+			buildPhases = (
+				5F79F6831B3DFE4A004D05BC /* Sources */,
+				5F79F6841B3DFE4A004D05BC /* Frameworks */,
+				5F79F6851B3DFE4A004D05BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F79F6891B3DFE4A004D05BC /* PBXTargetDependency */,
+			);
+			name = BetterSoccerCoachingAppTests;
+			productName = BetterSoccerCoachingAppTests;
+			productReference = 5F79F6871B3DFE4A004D05BC /* BetterSoccerCoachingAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F79F6631B3DFE4A004D05BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Willie Smith";
+				TargetAttributes = {
+					5F79F66A1B3DFE4A004D05BC = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					5F79F6861B3DFE4A004D05BC = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 5F79F66A1B3DFE4A004D05BC;
+					};
+				};
+			};
+			buildConfigurationList = 5F79F6661B3DFE4A004D05BC /* Build configuration list for PBXProject "BetterSoccerCoachingApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F79F6621B3DFE4A004D05BC;
+			productRefGroup = 5F79F66C1B3DFE4A004D05BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F79F66A1B3DFE4A004D05BC /* BetterSoccerCoachingApp */,
+				5F79F6861B3DFE4A004D05BC /* BetterSoccerCoachingAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F79F6691B3DFE4A004D05BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F79F67D1B3DFE4A004D05BC /* Main.storyboard in Resources */,
+				5F79F6821B3DFE4A004D05BC /* LaunchScreen.xib in Resources */,
+				5F79F67F1B3DFE4A004D05BC /* Images.xcassets in Resources */,
+				5F79F6C31B3E1342004D05BC /* soccerBall.png in Resources */,
+				F47DD0591B3E72E0005074CA /* soccerField.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F79F6851B3DFE4A004D05BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F79F6671B3DFE4A004D05BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F79F69F1B3E04CA004D05BC /* PlayersInfo.m in Sources */,
+				5F79F6741B3DFE4A004D05BC /* AppDelegate.m in Sources */,
+				F47DD0571B3E4DB3005074CA /* SoccerBallPositions.m in Sources */,
+				5F79F6991B3E025D004D05BC /* StartinLineUpViewController.m in Sources */,
+				5F79F6711B3DFE4A004D05BC /* main.m in Sources */,
+				5F79F6A81B3E059E004D05BC /* SoccerImages.m in Sources */,
+				5F79F6C11B3E08E7004D05BC /* PlayerInfoViewController.m in Sources */,
+				5F79F6BB1B3E0887004D05BC /* AddPlayerViewController.m in Sources */,
+				5F79F69C1B3E044A004D05BC /* SoccerBalls.m in Sources */,
+				5F79F6A21B3E04E8004D05BC /* TimeClocks.m in Sources */,
+				5F79F6A51B3E056F004D05BC /* SoccerBallLabels.m in Sources */,
+				5F79F6C61B3E1619004D05BC /* SoccerBallButton.m in Sources */,
+				5F79F67A1B3DFE4A004D05BC /* SoccerFieldViewController.m in Sources */,
+				5F79F6771B3DFE4A004D05BC /* BetterSoccerCoachingApp.xcdatamodeld in Sources */,
+				5F79F6B81B3E0839004D05BC /* ListOfPlayersTableViewController.m in Sources */,
+				5F79F6BE1B3E08B1004D05BC /* EditPlayerInfoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F79F6831B3DFE4A004D05BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F79F68E1B3DFE4A004D05BC /* BetterSoccerCoachingAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F79F6891B3DFE4A004D05BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F79F66A1B3DFE4A004D05BC /* BetterSoccerCoachingApp */;
+			targetProxy = 5F79F6881B3DFE4A004D05BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F79F67B1B3DFE4A004D05BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F79F67C1B3DFE4A004D05BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F79F6801B3DFE4A004D05BC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F79F6811B3DFE4A004D05BC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F79F68F1B3DFE4A004D05BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5F79F6901B3DFE4A004D05BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F79F6921B3DFE4A004D05BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = BetterSoccerCoachingApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5F79F6931B3DFE4A004D05BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = BetterSoccerCoachingApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5F79F6951B3DFE4A004D05BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BetterSoccerCoachingAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BetterSoccerCoachingApp.app/BetterSoccerCoachingApp";
+			};
+			name = Debug;
+		};
+		5F79F6961B3DFE4A004D05BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BetterSoccerCoachingAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BetterSoccerCoachingApp.app/BetterSoccerCoachingApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F79F6661B3DFE4A004D05BC /* Build configuration list for PBXProject "BetterSoccerCoachingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F79F68F1B3DFE4A004D05BC /* Debug */,
+				5F79F6901B3DFE4A004D05BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F79F6911B3DFE4A004D05BC /* Build configuration list for PBXNativeTarget "BetterSoccerCoachingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F79F6921B3DFE4A004D05BC /* Debug */,
+				5F79F6931B3DFE4A004D05BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F79F6941B3DFE4A004D05BC /* Build configuration list for PBXNativeTarget "BetterSoccerCoachingAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F79F6951B3DFE4A004D05BC /* Debug */,
+				5F79F6961B3DFE4A004D05BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5F79F6751B3DFE4A004D05BC /* BetterSoccerCoachingApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5F79F6761B3DFE4A004D05BC /* BetterSoccerCoachingApp.xcdatamodel */,
+			);
+			currentVersion = 5F79F6761B3DFE4A004D05BC /* BetterSoccerCoachingApp.xcdatamodel */;
+			path = BetterSoccerCoachingApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5F79F6631B3DFE4A004D05BC /* Project object */;
+}
