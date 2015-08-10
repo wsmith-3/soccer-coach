@@ -1,4 +1,5 @@
-//
+
+
 //  AppDelegate.m
 //  BetterSoccerCoachingApp
 //
@@ -7,6 +8,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ListOfPlayersTableViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +18,17 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+   
+    self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
+    
+    ListOfPlayersTableViewController *listOfPlayersTableViewController = [[ListOfPlayersTableViewController alloc]init];
+    
+    UIViewController *viewController = listOfPlayersTableViewController;
+    
+    self.window.rootViewController = viewController;
+    [self.window makeKeyAndVisible];
+
+    
     return YES;
 }
 

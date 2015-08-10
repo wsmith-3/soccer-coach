@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AddPlayerViewController : UITableViewController
+@interface AddPlayerViewController : UIViewController
 
 @end

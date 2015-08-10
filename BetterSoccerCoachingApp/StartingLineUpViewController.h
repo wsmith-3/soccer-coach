@@ -1,5 +1,5 @@
 //
-//  StartinLineUpViewController.h
+//  StartingLineUpViewController.h
 //  BetterSoccerCoachingApp
 //
 //  Created by Willie Smith on 6/26/15.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface StartinLineUpViewController : UIViewController
+@interface StartingLineUpViewController : UITableViewController
 
 @end

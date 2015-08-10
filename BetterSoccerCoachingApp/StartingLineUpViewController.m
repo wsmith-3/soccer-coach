@@ -6,16 +6,18 @@
 //  Copyright (c) 2015 Willie Smith. All rights reserved.
 //  This is just a test
 
-#import "StartinLineUpViewController.h"
+#import "StartingLineUpViewController.h"
 #import "SoccerFieldViewController.h"
 #import "AddPlayerViewController.h"
 #import "ListOfPlayersTableViewController.h"
 
-@interface StartinLineUpViewController ()
+@interface StartingLineUpViewController ()
 
 @end
 
-@implementation StartinLineUpViewController
+@implementation StartingLineUpViewController{
+    UITableView *startingLineUpTableView;
+}
 
 -(BOOL)prefersStatusBarHidden{
     return YES;
@@ -26,12 +28,20 @@
     UINavigationBar *startingLineUpNavBar = [[UINavigationBar alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 40)];
     UINavigationItem *title = [[UINavigationItem alloc]initWithTitle:@"Starting Line-Up"];
     UIBarButtonItem *leftButton = [[UIBarButtonItem alloc]initWithTitle:@"Back" style:UIBarButtonItemStylePlain target:self action:@selector(backToSoccerField)];
-    UIBarButtonItem *rightButton = [[UIBarButtonItem alloc]initWithTitle:@"Add Player" style:UIBarButtonItemStylePlain target:self action:@selector(addPlayer)];
+    UIBarButtonItem *rightButton = [[UIBarButtonItem alloc]initWithTitle:@"Substitute" style:UIBarButtonItemStylePlain target:self action:@selector(addPlayer)];
     startingLineUpNavBar.items = [NSArray arrayWithObject:title];
     startingLineUpNavBar.topItem.leftBarButtonItem = leftButton;
     startingLineUpNavBar.topItem.rightBarButtonItem = rightButton;
-    
     [self.view addSubview:startingLineUpNavBar];
+    
+    startingLineUpTableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 40, self.view.bounds.size.width, self.view.bounds.size.height) style:UITableViewStylePlain];
+    startingLineUpTableView.delegate = self;
+    startingLineUpTableView.dataSource = self;
+    
+    startingLineUpTableView.backgroundColor = [UIColor cyanColor];
+    
+    // add to canvas
+    [self.view addSubview:startingLineUpTableView];
 }
 
 -(void)backToSoccerField{
@@ -40,8 +50,8 @@
 }
 
 -(void)addPlayer{
-    AddPlayerViewController *addPlayerViewController = [[AddPlayerViewController alloc]init];
-    [self presentViewController:addPlayerViewController animated:YES completion:nil];
+    ListOfPlayersTableViewController *listOfPlayersTableViewController = [[ListOfPlayersTableViewController alloc]init];
+    [self presentViewController:listOfPlayersTableViewController animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -60,34 +70,45 @@
 */
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Potentially incomplete method implementation.
-    // Return the number of sections.
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete method implementation.
-    // Return the number of rows in the section.
-    return 0;
+    return 11;
 }
 
-/*
+
  - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
- UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+     NSString *cellIdentifier = @"startingLineUpCell";
+     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
  
  // Configure the cell...
- 
+     if (!cell) {
+         cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:cellIdentifier];
+
+     }
+     cell.textLabel.text = @"Name";
+     
+     cell.detailTextLabel.text = @"Position";
+    
+     //cell.backgroundColor = [UIColor redColor];
  return cell;
  }
- */
 
-/*
+- (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+   // cell.textLabel.backgroundColor = [UIColor purpleColor];
+   // cell.detailTextLabel.backgroundColor = [UIColor yellowColor];
+    
+}
+
  // Override to support conditional editing of the table view.
  - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
  // Return NO if you do not want the specified item to be editable.
- return YES;
+
+     return YES;
  }
- */
+
 
 /*
  // Override to support editing the table view.

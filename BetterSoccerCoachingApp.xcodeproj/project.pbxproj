@@ -15,7 +15,7 @@
 		5F79F67F1B3DFE4A004D05BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F79F67E1B3DFE4A004D05BC /* Images.xcassets */; };
 		5F79F6821B3DFE4A004D05BC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F79F6801B3DFE4A004D05BC /* LaunchScreen.xib */; };
 		5F79F68E1B3DFE4A004D05BC /* BetterSoccerCoachingAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F79F68D1B3DFE4A004D05BC /* BetterSoccerCoachingAppTests.m */; };
-		5F79F6991B3E025D004D05BC /* StartinLineUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F79F6981B3E025D004D05BC /* StartinLineUpViewController.m */; };
+		5F79F6991B3E025D004D05BC /* StartingLineUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F79F6981B3E025D004D05BC /* StartingLineUpViewController.m */; };
 		5F79F69C1B3E044A004D05BC /* SoccerBalls.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F79F69B1B3E044A004D05BC /* SoccerBalls.m */; };
 		5F79F69F1B3E04CA004D05BC /* PlayersInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F79F69E1B3E04CA004D05BC /* PlayersInfo.m */; };
 		5F79F6A21B3E04E8004D05BC /* TimeClocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F79F6A11B3E04E8004D05BC /* TimeClocks.m */; };
@@ -56,8 +56,8 @@
 		5F79F6871B3DFE4A004D05BC /* BetterSoccerCoachingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterSoccerCoachingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F79F68C1B3DFE4A004D05BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F79F68D1B3DFE4A004D05BC /* BetterSoccerCoachingAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BetterSoccerCoachingAppTests.m; sourceTree = "<group>"; };
-		5F79F6971B3E025D004D05BC /* StartinLineUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartinLineUpViewController.h; sourceTree = "<group>"; };
-		5F79F6981B3E025D004D05BC /* StartinLineUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartinLineUpViewController.m; sourceTree = "<group>"; };
+		5F79F6971B3E025D004D05BC /* StartingLineUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartingLineUpViewController.h; sourceTree = "<group>"; };
+		5F79F6981B3E025D004D05BC /* StartingLineUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartingLineUpViewController.m; sourceTree = "<group>"; };
 		5F79F69A1B3E044A004D05BC /* SoccerBalls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoccerBalls.h; sourceTree = "<group>"; };
 		5F79F69B1B3E044A004D05BC /* SoccerBalls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoccerBalls.m; sourceTree = "<group>"; };
 		5F79F69D1B3E04CA004D05BC /* PlayersInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayersInfo.h; sourceTree = "<group>"; };
@@ -171,8 +171,8 @@
 			children = (
 				5F79F6781B3DFE4A004D05BC /* SoccerFieldViewController.h */,
 				5F79F6791B3DFE4A004D05BC /* SoccerFieldViewController.m */,
-				5F79F6971B3E025D004D05BC /* StartinLineUpViewController.h */,
-				5F79F6981B3E025D004D05BC /* StartinLineUpViewController.m */,
+				5F79F6971B3E025D004D05BC /* StartingLineUpViewController.h */,
+				5F79F6981B3E025D004D05BC /* StartingLineUpViewController.m */,
 				5F79F6B61B3E0839004D05BC /* ListOfPlayersTableViewController.h */,
 				5F79F6B71B3E0839004D05BC /* ListOfPlayersTableViewController.m */,
 				5F79F6B91B3E0887004D05BC /* AddPlayerViewController.h */,
@@ -325,7 +325,7 @@
 				5F79F69F1B3E04CA004D05BC /* PlayersInfo.m in Sources */,
 				5F79F6741B3DFE4A004D05BC /* AppDelegate.m in Sources */,
 				F47DD0571B3E4DB3005074CA /* SoccerBallPositions.m in Sources */,
-				5F79F6991B3E025D004D05BC /* StartinLineUpViewController.m in Sources */,
+				5F79F6991B3E025D004D05BC /* StartingLineUpViewController.m in Sources */,
 				5F79F6711B3DFE4A004D05BC /* main.m in Sources */,
 				5F79F6A81B3E059E004D05BC /* SoccerImages.m in Sources */,
 				5F79F6C11B3E08E7004D05BC /* PlayerInfoViewController.m in Sources */,

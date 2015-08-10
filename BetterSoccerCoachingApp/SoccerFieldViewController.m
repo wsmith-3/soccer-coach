@@ -7,7 +7,7 @@
 //
 
 #import "SoccerFieldViewController.h"
-#import "StartinLineUpViewController.h"
+#import "StartingLineUpViewController.h"
 #import "SoccerImages.h"
 
 @interface SoccerFieldViewController ()
@@ -105,7 +105,7 @@
 }
 
 -(void)showStartingLineUpView{
-    StartinLineUpViewController *startingLineUpViewController = [[StartinLineUpViewController alloc]init];
+    StartingLineUpViewController *startingLineUpViewController = [[StartingLineUpViewController alloc]init];
     [self presentViewController:startingLineUpViewController animated:YES completion:nil];
 }
 
